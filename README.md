@@ -1,6 +1,10 @@
 # how-linux-works
 
 ```
+$ sudo apt install binutils build-essential sysstat
+```
+
+```
 $ uname -a
 Linux ubuntu 4.13.0-36-generic #40~16.04.1-Ubuntu SMP Fri Feb 16 23:25:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 ```
