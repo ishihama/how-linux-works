@@ -1,0 +1,793 @@
+execve("/home/hammer/anaconda3/bin/python3", ["python3", "./hello.py"], [/* 86 vars */]) = 0
+brk(NULL)                               = 0x1051000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/home/hammer/anaconda3/bin/pytho"..., 4096) = 36
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/home/hammer/anaconda3/bin/../lib/tls/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/../lib/tls/x86_64", 0x7ffdf577a4d0) = -1 ENOENT (No such file or directory)
+open("/home/hammer/anaconda3/bin/../lib/tls/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/../lib/tls", 0x7ffdf577a4d0) = -1 ENOENT (No such file or directory)
+open("/home/hammer/anaconda3/bin/../lib/x86_64/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/../lib/x86_64", 0x7ffdf577a4d0) = -1 ENOENT (No such file or directory)
+open("/home/hammer/anaconda3/bin/../lib/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\34\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=10532579, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f21e000
+mmap(NULL, 5271528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2eaf3000
+mprotect(0x7f1c2ed61000, 2097152, PROT_NONE) = 0
+mmap(0x7f1c2ef61000, 430080, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26e000) = 0x7f1c2ef61000
+mmap(0x7f1c2efca000, 196584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1c2efca000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls/x86_64", 0x7ffdf577a4a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/tls", 0x7ffdf577a4a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64/x86_64", 0x7ffdf577a4a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda/lib64", 0x7ffdf577a4a0) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=102886, ...}) = 0
+mmap(NULL, 102886, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1c2f204000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2e8d6000
+mprotect(0x7f1c2e8ee000, 2093056, PROT_NONE) = 0
+mmap(0x7f1c2eaed000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f1c2eaed000
+mmap(0x7f1c2eaef000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1c2eaef000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libdl.so.2", O_RDONLY|O_CLOEXEC)  = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2e6d2000
+mprotect(0x7f1c2e6d5000, 2093056, PROT_NONE) = 0
+mmap(0x7f1c2e8d4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f1c2e8d4000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10656, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f203000
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2e4cf000
+mprotect(0x7f1c2e4d1000, 2093056, PROT_NONE) = 0
+mmap(0x7f1c2e6d0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f1c2e6d0000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("librt.so.1", O_RDONLY|O_CLOEXEC)  = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2e2c7000
+mprotect(0x7f1c2e2ce000, 2093056, PROT_NONE) = 0
+mmap(0x7f1c2e4cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f1c2e4cd000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libm.so.6", O_RDONLY|O_CLOEXEC)   = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2dfbe000
+mprotect(0x7f1c2e0c6000, 2093056, PROT_NONE) = 0
+mmap(0x7f1c2e2c5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f1c2e2c5000
+close(3)                                = 0
+open("/home/hammer/anaconda3/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY|O_CLOEXEC)   = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f202000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f1c2dbf4000
+mprotect(0x7f1c2ddb4000, 2097152, PROT_NONE) = 0
+mmap(0x7f1c2dfb4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f1c2dfb4000
+mmap(0x7f1c2dfba000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1c2dfba000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f201000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f200000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f1ff000
+arch_prctl(ARCH_SET_FS, 0x7f1c2f200700) = 0
+mprotect(0x7f1c2dfb4000, 16384, PROT_READ) = 0
+mprotect(0x7f1c2e2c5000, 4096, PROT_READ) = 0
+mprotect(0x7f1c2eaed000, 4096, PROT_READ) = 0
+mprotect(0x7f1c2e4cd000, 4096, PROT_READ) = 0
+mprotect(0x7f1c2e6d0000, 4096, PROT_READ) = 0
+mprotect(0x7f1c2e8d4000, 4096, PROT_READ) = 0
+mprotect(0x7f1c2f21f000, 4096, PROT_READ) = 0
+munmap(0x7f1c2f204000, 102886)          = 0
+set_tid_address(0x7f1c2f2009d0)         = 18048
+set_robust_list(0x7f1c2f2009e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f1c2e8dbb50, [], SA_RESTORER|SA_SIGINFO, 0x7f1c2e8e7390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f1c2e8dbbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f1c2e8e7390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x1051000
+brk(0x1072000)                          = 0x1072000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4016704, ...}) = 0
+mmap(NULL, 4016704, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f1c2d81f000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f1c2f217000
+close(3)                                = 0
+futex(0x7f1c2dfb98c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/urandom", O_RDONLY)          = 3
+ioctl(3, FIOCLEX)                       = 0
+read(3, "Q\304\244\260\223\362\246A\247\v\361u\301v\241n\251o\34\3058\321\3752", 24) = 24
+close(3)                                = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f1bf000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f17f000
+munmap(0x7f1c2f17f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f17f000
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 17), ...}) = 0
+stat("/home/linuxbrew/.linuxbrew/bin/python3", 0x7ffdf5774a20) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/.rbenv/shims/python3", 0x7ffdf5774a20) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/python3", {st_mode=S_IFREG|0775, st_size=14040, ...}) = 0
+readlink("/home/hammer/anaconda3/bin/python3", "python3.6", 4096) = 9
+readlink("/home/hammer/anaconda3/bin/python3.6", 0x7ffdf575f940, 4096) = -1 EINVAL (Invalid argument)
+open("/home/hammer/anaconda3/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/home/hammer/anaconda3/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/Modules/Setup", 0x7ffdf57608c0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/lib/python3.6/os.py", 0x7ffdf57608c0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/lib/python3.6/os.pyc", 0x7ffdf57607f0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37442, ...}) = 0
+stat("/home/hammer/anaconda3/bin/pybuilddir.txt", 0x7ffdf575b860) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/lib/python3.6/lib-dynload", 0x7ffdf575f940) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/version.txt", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=24, ...}) = 0
+read(3, "Anaconda 4.4.0 (64-bit)\n", 4096) = 24
+close(3)                                = 0
+brk(0x1095000)                          = 0x1095000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f13f000
+sysinfo({uptime=4173, loads=[73248, 80448, 81952], totalram=16768491520, freeram=10760744960, sharedram=308027392, bufferram=438562816, totalswap=15999168512, freeswap=15999168512, procs=1042, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+brk(0x10b8000)                          = 0x10b8000
+sigaltstack({ss_sp=0x106f860, ss_flags=0, ss_size=8192}, NULL) = 0
+stat("/home/hammer/anaconda3/lib/python36.zip", 0x7ffdf57793f0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib", {st_mode=S_IFDIR|0775, st_size=36864, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python36.zip", 0x7ffdf5778a60) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getdents(3, /* 205 entries */, 32768)   = 6824
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffdf5778ec0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/__init__.abi3.so", 0x7ffdf5778ec0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/__init__.so", 0x7ffdf5778ec0) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5642, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+munmap(0x7f1c2f0ff000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0ff000
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5642, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3925, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3925, ...}) = 0
+read(3, "3\r\r\n]\251\24Y\n\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 3926) = 3925
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/codecs.py", {st_mode=S_IFREG|0664, st_size=36231, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/codecs.py", {st_mode=S_IFREG|0664, st_size=36231, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/codecs.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=33913, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=33913, ...}) = 0
+read(3, "3\r\r\n@\251\24Y\207\215\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0:\0\0\0@\0\0"..., 33914) = 33913
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getdents(3, /* 128 entries */, 32768)   = 4336
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6269, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6269, ...}) = 0
+read(3, "3\r\r\nW\251\24Y\331<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0\0@\0\0"..., 6270) = 6269
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1587, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1587, ...}) = 0
+read(3, "3\r\r\nd\251\24Y\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 1588) = 1587
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER, 0x7f1c2e8e7390}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {SIG_IGN, [], SA_RESTORER, 0x7f1c2e8e7390}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f1c2e8e7390}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_IGN, [], SA_RESTORER, 0x7f1c2e8e7390}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x7f1c2ecbac10, [], SA_RESTORER, 0x7f1c2e8e7390}, {SIG_DFL, [], 0}, 8) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1869, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1869, ...}) = 0
+read(3, "3\r\r\n`\251\24Y\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 1870) = 1869
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/io.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3382, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3382, ...}) = 0
+read(3, "3\r\r\nE\251\24Y\275\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0"..., 3383) = 3382
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/abc.py", {st_mode=S_IFREG|0664, st_size=8628, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/abc.py", {st_mode=S_IFREG|0664, st_size=8628, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/abc.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7471, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7471, ...}) = 0
+read(3, "3\r\r\n>\251\24Y\264!\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 7472) = 7471
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5705, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5705, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7823, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7823, ...}) = 0
+read(3, "3\r\r\nQ\251\24YI\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0"..., 7824) = 7823
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 17), ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 17), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 17), ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site.py", {st_mode=S_IFREG|0664, st_size=20433, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site.py", {st_mode=S_IFREG|0664, st_size=20433, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/site.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15774, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15774, ...}) = 0
+read(3, "3\r\r\nK\251\24Y\321O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0"..., 15775) = 15774
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x10da000)                          = 0x10da000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f0bf000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37442, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/os.py", {st_mode=S_IFREG|0664, st_size=37442, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/os.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=29602, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=29602, ...}) = 0
+read(3, "3\r\r\nG\251\24YB\222\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0@\0\0"..., 29603) = 29602
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/stat.py", {st_mode=S_IFREG|0664, st_size=5038, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/stat.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3846, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3846, ...}) = 0
+read(3, "3\r\r\nL\251\24Y\256\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 3847) = 3846
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/posixpath.py", {st_mode=S_IFREG|0664, st_size=15349, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/posixpath.py", {st_mode=S_IFREG|0664, st_size=15349, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/posixpath.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=10384, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=10384, ...}) = 0
+read(3, "3\r\r\nH\251\24Y\365;\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0@\0\0"..., 10385) = 10384
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/genericpath.py", {st_mode=S_IFREG|0664, st_size=4756, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/genericpath.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3721, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3721, ...}) = 0
+read(3, "3\r\r\nC\251\24Y\224\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 3722) = 3721
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26253, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26253, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=28811, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=28811, ...}) = 0
+read(3, "3\r\r\n@\251\24Y\215f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0\0@\0\0"..., 28812) = 28811
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+munmap(0x7f1c2f07f000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f07f000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3430, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3430, ...}) = 0
+read(3, "3\r\r\nK\251\24Y+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3431) = 3430
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/bin/pyvenv.cfg", 0x7ffdf5778d60) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/pyvenv.cfg", 0x7ffdf5778d60) = -1 ENOENT (No such file or directory)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/sysconfig.py", {st_mode=S_IFREG|0664, st_size=24861, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/sysconfig.py", {st_mode=S_IFREG|0664, st_size=24861, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15826, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15826, ...}) = 0
+read(3, "3\r\r\nN\251\24Y\35a\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 15827) = 15826
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2f05a000
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/hammer", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/hammer/anaconda3", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/hammer/anaconda3/bin", {st_mode=S_IFDIR|0775, st_size=12288, ...}) = 0
+lstat("/home/hammer/anaconda3/bin/python3", {st_mode=S_IFLNK|0777, st_size=9, ...}) = 0
+readlink("/home/hammer/anaconda3/bin/python3", "python3.6", 4096) = 9
+lstat("/home/hammer/anaconda3/bin/python3.6", {st_mode=S_IFREG|0775, st_size=14040, ...}) = 0
+stat("/home/hammer/anaconda3/bin/Modules/Setup.dist", 0x7ffdf5777600) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/bin/Modules/Setup.local", 0x7ffdf5777600) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py", {st_mode=S_IFREG|0664, st_size=21062, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py", {st_mode=S_IFREG|0664, st_size=21062, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=18042, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=18042, ...}) = 0
+read(3, "3\r\r\n\354R\303YFR\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\211\2\0\0@\0\0"..., 18043) = 18042
+read(3, "", 1)                          = 0
+close(3)                                = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/hammer", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/hammer/anaconda3", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/hammer/anaconda3/lib", {st_mode=S_IFDIR|0775, st_size=36864, ...}) = 0
+lstat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/hammer/anaconda3/lib/python3.6/config-3.6m-x86_64-linux-gnu", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/.local/lib/python3.6/site-packages", 0x7ffdf5779000) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+getdents(3, /* 353 entries */, 32768)   = 14888
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx.pth", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=25, ...}) = 0
+ioctl(3, TCGETS, 0x7ffdf5778ac0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffdf5778a40)        = -1 ENOTTY (Inappropriate ioctl for device)
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1301, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1301, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=975, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=975, ...}) = 0
+read(4, "3\r\r\n?\251\24Y\25\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 976) = 975
+read(4, "", 1)                          = 0
+close(4)                                = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "./Sphinx-1.5.6-py3.6.egg\n", 8192) = 25
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/easy-install.pth", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffdf5778ac0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffdf5778a40)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/protobuf-3.4.0-py3.6-nspkg.pth", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=355, ...}) = 0
+ioctl(3, TCGETS, 0x7ffdf5778ac0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffdf5778a40)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "import sys, types, os;pep420 = s"..., 8192) = 355
+brk(0x10fb000)                          = 0x10fb000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2d7df000
+munmap(0x7f1c2d7df000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2d7df000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/types.py", {st_mode=S_IFREG|0664, st_size=8870, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/types.py", {st_mode=S_IFREG|0664, st_size=8870, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/types.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=8196, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=8196, ...}) = 0
+read(4, "3\r\r\nP\251\24Y\246\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 8197) = 8196
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/functools.py", {st_mode=S_IFREG|0664, st_size=31142, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/functools.py", {st_mode=S_IFREG|0664, st_size=31142, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/functools.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=23922, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=23922, ...}) = 0
+read(4, "3\r\r\nC\251\24Y\246y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0+\0\0\0@\0\0"..., 23923) = 23922
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffdf5774f40) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/collections/__init__.abi3.so", 0x7ffdf5774f40) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/collections/__init__.so", 0x7ffdf5774f40) = -1 ENOENT (No such file or directory)
+stat("/home/hammer/anaconda3/lib/python3.6/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=45873, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=45873, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=45872, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=45872, ...}) = 0
+read(4, "3\r\r\nV\251\24Y1\263\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0@\0\0"..., 45873) = 45872
+read(4, "", 1)                          = 0
+close(4)                                = 0
+brk(0x1120000)                          = 0x1120000
+brk(0x1109000)                          = 0x1109000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/operator.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13908, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13908, ...}) = 0
+read(4, "3\r\r\nG\251\24Yo*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0\0@\0\0"..., 13909) = 13908
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2d79f000
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/keyword.py", {st_mode=S_IFREG|0775, st_size=2211, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/keyword.py", {st_mode=S_IFREG|0775, st_size=2211, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/keyword.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=1760, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=1760, ...}) = 0
+read(4, "3\r\r\nE\251\24Y\243\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0!\0\0\0@\0\0"..., 1761) = 1760
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/heapq.py", {st_mode=S_IFREG|0664, st_size=22929, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/heapq.py", {st_mode=S_IFREG|0664, st_size=22929, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/heapq.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=14287, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=14287, ...}) = 0
+read(4, "3\r\r\nD\251\24Y\221Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0"..., 14288) = 14287
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/lib-dynload", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getdents(4, /* 67 entries */, 32768)    = 4184
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=46637, ...}) = 0
+futex(0x7f1c2e8d50a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/home/hammer/anaconda3/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\v\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0775, st_size=46637, ...}) = 0
+mmap(NULL, 2113456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1c2d59b000
+mprotect(0x7f1c2d59d000, 2097152, PROT_NONE) = 0
+mmap(0x7f1c2d79d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7f1c2d79d000
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0664, st_size=5336, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0664, st_size=5336, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/reprlib.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=5395, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=5395, ...}) = 0
+read(4, "3\r\r\nJ\251\24Y\330\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 5396) = 5395
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/weakref.py", {st_mode=S_IFREG|0664, st_size=20466, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/weakref.py", {st_mode=S_IFREG|0664, st_size=20466, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/__pycache__/weakref.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=19138, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=19138, ...}) = 0
+read(4, "3\r\r\nQ\251\24Y\362O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 19139) = 19138
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/collections", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+getdents(4, /* 5 entries */, 32768)     = 144
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=178, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=178, ...}) = 0
+read(4, "3\r\r\nV\251\24YD\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 179) = 178
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/google/__init__.py", 0x7ffdf5778650) = -1 ENOENT (No such file or directory)
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/setuptools.pth", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=30, ...}) = 0
+ioctl(3, TCGETS, 0x7ffdf5778ac0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffdf5778a40)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "./setuptools-27.2.0-py3.6.egg\n", 8192) = 30
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg", {st_mode=S_IFREG|0664, st_size=539843, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+getdents(3, /* 353 entries */, 32768)   = 14888
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+brk(0x112a000)                          = 0x112a000
+getdents(3, /* 4 entries */, 32768)     = 112
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1122000)                          = 0x1122000
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg", {st_mode=S_IFREG|0664, st_size=539843, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/site-packages/setuptools-27.2.0-py3.6.egg", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=539843, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=539843, ...}) = 0
+lseek(3, 536576, SEEK_SET)              = 536576
+read(3, "\0\0V\17\0\0005\0\0\0\0\0\0\0\0\0\0\0\264\201\32\16\6\0setuptoo"..., 3245) = 3245
+read(3, "PK\5\6\0\0\0\0~\0~\0\216*\0\0\245\20\10\0\0\0", 4096) = 22
+lseek(3, 528384, SEEK_SET)              = 528384
+read(3, "\rM\205\36\230\222y\241\266<(-\314\315^-\353\33\271,#m\265\230\235!\373#j\217\270!"..., 4096) = 4096
+stat("/home/hammer/anaconda3/lib/python3.6/encodings", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/cp437.py", {st_mode=S_IFREG|0664, st_size=34564, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/encodings/cp437.py", {st_mode=S_IFREG|0664, st_size=34564, ...}) = 0
+open("/home/hammer/anaconda3/lib/python3.6/encodings/__pycache__/cp437.cpython-36.pyc", O_RDONLY) = 4
+ioctl(4, FIOCLEX)                       = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=7816, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=7816, ...}) = 0
+read(4, "3\r\r\nY\251\24Y\4\207\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\1\0\0@\0\0"..., 7817) = 7816
+read(4, "", 1)                          = 0
+close(4)                                = 0
+read(3, "\0\264\201\313\3\4\0setuptools/dist.pyPK\1\2\24\3\24"..., 4096) = 4096
+read(3, "\0\0V\17\0\0005\0\0\0\0\0\0\0\0\0\0\0\264\201\32\16\6\0setuptoo"..., 4096) = 3267
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1c2d55b000
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/home/hammer/anaconda3/lib/python3.6", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=20480, ...}) = 0
+stat("/home/hammer/anaconda3/lib/python3.6/site-packages/Sphinx-1.5.6-py3.6.egg", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("./hello.py", {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+open("./hello.py", O_RDONLY)            = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+lseek(3, 18446744073709547520, SEEK_SET) = -1 EINVAL (Invalid argument)
+close(3)                                = 0
+stat("./hello.py", {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+readlink("./hello.py", 0x7ffdf5769b80, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/hammer/work/how-linux-works/chapter02", 4096) = 44
+lstat("/home/hammer/work/how-linux-works/chapter02/hello.py", {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+open("./hello.py", O_RDONLY)            = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+ioctl(3, TCGETS, 0x7ffdf577ab50)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+read(3, "print(\"hello world\")\n", 4096) = 21
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "print(\"hello world\")\n", 4096) = 21
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+write(1, "hello world\n", 12)           = 12
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f1c2e8e7390}, {0x7f1c2ecbac10, [], SA_RESTORER, 0x7f1c2e8e7390}, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
